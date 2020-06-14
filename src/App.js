@@ -22,7 +22,7 @@ function App() {
             <h2 className="text-gray-700">
               Originally designed and ported from{" "}
               <a
-                className="text-blue-500 hover:text-blue-700"
+                className="text-blue-600 hover:text-blue-800"
                 href="https://tailwindui.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -31,7 +31,7 @@ function App() {
               </a>{" "}
               and built with{" "}
               <a
-                className="text-blue-500 hover:text-blue-700"
+                className="text-blue-600 hover:text-blue-800"
                 href="https://tailwindcss.com/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -39,8 +39,29 @@ function App() {
                 TailwindCSS
               </a>
             </h2>
+            <div className="py-10">
+              <a
+                className="px-4 py-3 bg-green-500 hover:bg-green-400 text-white rounded"
+                href="https://github.com/randallmlough/react-responsive-navbar"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Source code
+              </a>
+            </div>
           </div>
         </main>
+        <footer className="text-center text-gray-600">
+          <p>
+            View more of my stuff and projects at{" "}
+            <a
+              className="text-blue-600 hover:text-blue-800"
+              href="https://www.randylough.com"
+            >
+              RandyLough.com
+            </a>
+          </p>
+        </footer>
       </div>
     </Router>
   );
